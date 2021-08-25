@@ -3,7 +3,7 @@ package com.BeanLearn;
 import com.BeanLearn.B;
 import org.springframework.stereotype.Component;
 
-@Component("ABean1")
+@Component("ABean")
 public class A implements B{
 	
 	@Override
