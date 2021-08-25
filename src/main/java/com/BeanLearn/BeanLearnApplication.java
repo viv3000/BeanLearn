@@ -16,6 +16,8 @@ public class BeanLearnApplication {
 		
 		A a = context.getBean("ABean1", A.class);
 		
+		System.out.println(a);
+
 		((ConfigurableApplicationContext) context).close();
 
 	}
