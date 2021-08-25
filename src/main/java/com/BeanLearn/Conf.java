@@ -9,12 +9,12 @@ import com.BeanLearn.A;
 
 @Configuration
 public class Conf{
-	@Bean("ABean")
+	@Bean
 	public A a(){
 		return new A();
 	}
 
-	@Bean("EBean")
+	@Bean
 	public E e(){
 		return new E();
 	}
